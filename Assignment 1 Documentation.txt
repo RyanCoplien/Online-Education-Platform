@@ -11,4 +11,9 @@ Line 705: <script>document.write(new Date().getFullYear());</script>
 Line 730: </html>
 
 Task 3 Documentation:
+Enter the following commands to create the MongoDB task:
 
+mongo // This starts the mongoDB command line
+use OnlineLearning // The creates the OnlineLearning Database
+db.createCollection("Students") // This create the Students collection
+db.Students.insert({ _id: 1, name: "Bob", email: "BobsBurgers@Fox.com", userid: "BobbyBoi", password: "Burger", CoursesRegistered: ["CS3530", "ACCT2010"] }) // Inserts New Document to Students collection
