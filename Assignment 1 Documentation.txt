@@ -1,0 +1,14 @@
+Names: Ryan Coplien, Bailey Watkins, Jack Rasmussen, Michael Kelly
+Course: CS3530
+Assignment 1
+
+Task 2 Documentation:
+To resolve website issues. Comment out following code:
+
+Line 1: <!DOCTYPE html>
+Line 2: <html lang="en">
+Line 705: <script>document.write(new Date().getFullYear());</script>
+Line 730: </html>
+
+Task 3 Documentation:
+
