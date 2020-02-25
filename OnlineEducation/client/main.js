@@ -20,3 +20,5 @@ Template.hello.events({
     instance.counter.set(instance.counter.get() + 1);
   },
 });
+
+//Router.go('/articles/example'); This is possible code to go to next page
