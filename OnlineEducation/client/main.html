@@ -1,28 +1,31 @@
 <!--<!DOCTYPE html>-->
 <!--><html lang="en">-->
 <head>
-<title>Course Details</title>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="description" content="OpenED project">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" type="text/css" href="styles/bootstrap4/bootstrap.min.css">
-<link href="plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-<link href="plugins/colorbox/colorbox.css" rel="stylesheet" type="text/css">
-<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.carousel.css">
-<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.theme.default.css">
-<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/animate.css">
-<link rel="stylesheet" type="text/css" href="styles/course.css">
-<link rel="stylesheet" type="text/css" href="styles/course_responsive.css">
+  <title>Course Details</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="OpenED project">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="styles/bootstrap4/bootstrap.min.css">
+  <link href="plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <link href="plugins/colorbox/colorbox.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.carousel.css">
+  <link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.theme.default.css">
+  <link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/animate.css">
+  <link rel="stylesheet" type="text/css" href="styles/course.css">
+  <link rel="stylesheet" type="text/css" href="styles/course_responsive.css">
 </head>
 <body>
+{{> Home}}
+</body>
 
+<template name="Home">
 <div class="super_container">
 
   <!-- Header -->
 
   <header class="header">
-      
+
     <!-- Top Bar -->
     <div class="top_bar">
       <div class="top_bar_container">
@@ -42,13 +45,13 @@
                   </li>
                 </ul>
                 <div class="top_bar_login ml-auto">
-                  <div class="login_button"><a href="registrationNlogin.html">Register or Login</a></div>
+                  <div class="login_button"><a href="registerNloginpage">Register or Login1</a></div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div>        
+      </div>
     </div>
 
     <!-- Header Content -->
@@ -102,8 +105,8 @@
             </div>
           </div>
         </div>
-      </div>      
-    </div>      
+      </div>
+    </div>
   </header>
 
   <!-- Menu -->
@@ -129,7 +132,7 @@
       </ul>
     </nav>
   </div>
-  
+
   <!-- Home -->
 
   <div class="home">
@@ -147,7 +150,7 @@
           </div>
         </div>
       </div>
-    </div>      
+    </div>
   </div>
 
   <!-- Course -->
@@ -158,7 +161,7 @@
 
         <!-- Course -->
         <div class="col-lg-8">
-          
+
           <div class="course_container">
             <div class="course_title">Applied Deep Learning</div>
             <div class="course_info d-flex flex-lg-row flex-column align-items-lg-center align-items-start justify-content-start">
@@ -222,7 +225,7 @@
 
                       <!-- Accordions -->
                       <div class="accordions">
-                        
+
                         <div class="elements_accordions">
 
                           <div class="accordion_container">
@@ -382,7 +385,7 @@
                       </ul>
                     </div>
                   </div>
-                  
+
                   <!-- Comments -->
                   <div class="comments_container">
                     <ul class="comments_list">
@@ -620,7 +623,7 @@
             <div class="row">
 
               <div class="col-lg-3 footer_col">
-          
+
                 <!-- Footer About -->
                 <div class="footer_section footer_about">
                   <div class="footer_logo_container">
@@ -640,11 +643,11 @@
                     </ul>
                   </div>
                 </div>
-                
+
               </div>
 
               <div class="col-lg-3 footer_col">
-          
+
                 <!-- Footer Contact -->
                 <div class="footer_section footer_contact">
                   <div class="footer_title">Contact Us</div>
@@ -656,11 +659,11 @@
                     </ul>
                   </div>
                 </div>
-                
+
               </div>
 
               <div class="col-lg-3 footer_col">
-          
+
                 <!-- Footer links -->
                 <div class="footer_section footer_links">
                   <div class="footer_title">Contact Us</div>
@@ -677,11 +680,11 @@
                     </ul>
                   </div>
                 </div>
-                
+
               </div>
 
               <div class="col-lg-3 footer_col clearfix">
-          
+
                 <!-- Footer links -->
                 <div class="footer_section footer_mobile">
                   <div class="footer_title">Mobile</div>
@@ -690,7 +693,7 @@
                     <div class="footer_image"><a href="#"><img src="images/mobile_2.png" alt=""></a></div>
                   </div>
                 </div>
-                
+
               </div>
 
             </div>
@@ -702,8 +705,8 @@
         <div class="col">
           <div class="copyright d-flex flex-lg-row flex-column align-items-center justify-content-start">
             <div class="cr_text"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<!--<script>document.write(new Date().getFullYear());</script> -->All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></div>
+              Copyright &copy;<!--<script>document.write(new Date().getFullYear());</script> -->All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+              <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></div>
             <div class="ml-lg-auto cr_links">
               <ul class="cr_list">
                 <li><a href="#">Copyright notification</a></li>
@@ -718,6 +721,7 @@ Copyright &copy;<!--<script>document.write(new Date().getFullYear());</script> -
   </footer>
 </div>
 
+<script src="main.js"></script>
 <script src="js/jquery-3.2.1.min.js"></script>
 <script src="styles/bootstrap4/popper.js"></script>
 <script src="styles/bootstrap4/bootstrap.min.js"></script>
@@ -726,5 +730,5 @@ Copyright &copy;<!--<script>document.write(new Date().getFullYear());</script> -
 <script src="plugins/parallax-js-master/parallax.min.js"></script>
 <script src="plugins/colorbox/jquery.colorbox-min.js"></script>
 <script src="js/course.js"></script>
-</body>
+</template>
 <!--</html>-->
