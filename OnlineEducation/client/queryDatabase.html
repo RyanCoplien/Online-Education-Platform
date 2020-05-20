@@ -1,5 +1,5 @@
 <head>
-<title>Register and Login</title>
+<title>Query Database</title>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="description" content="Onstitute project">
@@ -14,7 +14,7 @@
 
 </body>
 
-<template name="registrationNloginPage">
+<template name="queryDatabase">
 <div class="super_container">
 	<!-- Header -->
 
@@ -176,109 +176,26 @@
 					<!-- Contact Form -->
 					<div class="col-lg-6">
 						<div class="contact_form">
-							<div class="contact_info_title">Registration Form</div>
+							<div class="contact_info_title">Query Student Form</div>
 							<form action="#" class="comment_form">
-								<div>
-									<div class="form_title">Title</div>
-									<select class="comment_input" id="selectTitle" required="required">
-                                        <option value="mr">Mr.</option>
-                                        <option value="ms">Ms.</option>
-                                        <option value="dr">Dr.</option>
-                                    </select>
-								</div>
-                                
 								<div>
 									<div class="form_title">First name</div>
 									<input type="text" id="textFirstName" class="comment_input" required="required">
 								</div>
-                                
-                                <div>
-                                    <div class="form_title">Last name</div>
-                                    <input type="text" id="textLastName" class="comment_input" required="required">
-                                </div>
-                                
-                                <div>
-                                    <div class="form_title">Preferred user name</div>
-                                    <input type="text" id="textUserName" class="comment_input" required="required">
-                                </div>
-                                
-                                <div>
-                                    <div class="form_title">Password</div>
-                                    <input type="password" id="passwordPassword" class="comment_input" required="required">
-                                </div>
-                                
-                                <div>
-                                    <div class="form_title">Register as</div>
-                                    <select id="selectRegisterAs" class="comment_input" required="required">
-                                        <option value="student">Student</option>
-                                        <option value="instructor">Instructor</option>
-                                        <option value="ta">Teaching Assistant</option>
-                                    </select>
-                                </div>
-                                
-                                <div>
-                                    <div class="form_title">Highest degree</div>
-                                    <input type="text" id="textHighestDegree" class="comment_input" required="required">
-                                </div>
-                                
-                                <div>
-                                    <div class="form_title">Current organization</div>
-                                    <input type="text" id="textCurrentOrganization" class="comment_input" required="required">
-                                </div>
-                                
-                                <div>
-                                    <div class="form_title">Current designation</div>
-                                    <input type="text" id="textCurrentDesignation" class="comment_input" required="required">
-                                </div>
-                                
-                                <div>
-                                    <div class="form_title">E-mail</div>
-                                    <input type="text" id="textEmail" class="comment_input" required="required">
-                                </div>
-                                
-                                <div>
-                                    <div class="form_title">Phone number</div>
-                                    <input type="text" id="textPhoneNumber" class="comment_input" required="required">
-                                </div>
-
-                                <div>
-                                    <div class="form_title">Date of Birth</div>
-                                    <input type="date" id="textBirthDate" class="comment_input" required="required">
-                                </div>
 
 								<div>
-									<div class="form_title">Any other information</div>
-									<textarea id="textareaOtherInfo" class="comment_input comment_textarea" required="required"></textarea>
+									<div class="form_title">Query Result</div>
+									<textarea id="textareaOtherInfo" class="comment_input comment_textarea"></textarea>
 								</div>
 								<div>
-									<button type="submit" id="buttonsubmitRegistrationForm" class="comment_button trans_200">submit now</button>
+									<button type="button" id="buttonsubmitqueryStudent" class="comment_button trans_200">Query Student</button>
 								</div>
 							</form>
 						</div>
 					</div>
 
 					<!-- Contact Info -->
-					<div class="col-lg-6">
-						<div class="contact_info">
-							<div class="contact_info_title">Login</div>
-							<div class="contact_info_text">
-                                <form action="#" class="comment_form">
-                                <div>
-                                    <div class="form_title"> user name</div>
-                                    <input type="text" id="textLoginName" class="comment_input" required="required">
-                                </div>
-                                
-                                <div>
-                                    <div class="form_title">Password</div>
-                                    <input type="password" id="passwordPasswordLogin" class="comment_input" required="required">
-                                </div>
-                                <div>
-                                    <button type="submit" id="buttonsubmitLoginForm" class="comment_button trans_200">submit now</button>
-                                </div>
-                                </form>
-							</div>
-						</div>
-					</div>
+					
 				</div>
 			</div>
 		</div>
